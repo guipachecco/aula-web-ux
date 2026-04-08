@@ -31,3 +31,23 @@ body {
   .card:hover img { transform: scale(1.05); }
   h1 { color: #f1c40f; font-size: 2rem; margin-bottom: 10px; }
   h2 { color: #d4af37; font-size: 1.3rem; margin-bottom: 15px; }
+  .descricao, .caracteristicas p, .habilidades li { 
+    color: rgba(255,255,255,.9); 
+    font-size: 1rem; 
+  }
+  .descricao { margin-bottom: 25px; }
+  .habilidades, .caracteristicas { 
+    background: rgba(255,255,255,.05); 
+    border-radius: 12px; 
+    padding: 20px; 
+    margin-bottom: 15px; 
+    border: 1px solid rgba(255,255,255,.1); 
+  }
+  .habilidades li { 
+    position: relative; 
+    padding-left: 20px; 
+    margin-bottom: 8px; 
+    list-style: none; 
+  }
+  .habilidades li::before { content: '⚔️'; position: absolute; left: 0; }
+  .caracteristicas strong { color: #d4af37; }
